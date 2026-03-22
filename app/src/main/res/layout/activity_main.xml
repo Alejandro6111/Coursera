@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:gravity="center">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <!-- Título de bienvenida -->
+            <TextView
+                android:id="@+id/title_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/welcome_title"
+                style="@style/TitleText"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/padding_large" />
+
+            <!-- Mensaje de bienvenida -->
+            <TextView
+                android:id="@+id/message_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/welcome_message"
+                style="@style/MessageText"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/padding_large"
+                android:lineSpacingMultiplier="1.2" />
+
+            <!-- Imagen de la mascota Android (Marcianito) -->
+            <ImageView
+                android:id="@+id/android_mascot"
+                android:layout_width="@dimen/image_size"
+                android:layout_height="@dimen/image_size"
+                android:contentDescription="@string/android_mascot"
+                android:scaleType="centerInside"
+                android:src="@drawable/android_cute"
+                android:layout_marginBottom="@dimen/padding_large" />
+
+            <!-- Información de idiomas -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/language_spanish"
+                style="@style/MessageText"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/padding_medium" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

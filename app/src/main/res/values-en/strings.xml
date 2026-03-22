@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My First Android Project</string>
+    <string name="welcome_title">Welcome!</string>
+    <string name="welcome_message">This is my first Android project with multi-language and multi-screen support</string>
+    <string name="android_mascot">Android Mascot</string>
+    <string name="language_spanish">Spanish</string>
+    <string name="language_english">English</string>
+    <string name="language_french">French</string>
+    <string name="language_german">German</string>
+</resources>

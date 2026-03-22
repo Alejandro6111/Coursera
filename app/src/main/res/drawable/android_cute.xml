@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Mascota Android (Marcianito) realizado con Vector Drawable -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Cabeza (círculo) -->
+    <circle
+        android:cx="100"
+        android:cy="80"
+        android:r="45"
+        android:fillColor="#A4C639" />
+
+    <!-- Ojos -->
+    <circle
+        android:cx="85"
+        android:cy="65"
+        android:r="6"
+        android:fillColor="#FFFFFF" />
+    <circle
+        android:cx="115"
+        android:cy="65"
+        android:r="6"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Pupilas -->
+    <circle
+        android:cx="85"
+        android:cy="65"
+        android:r="3"
+        android:fillColor="#000000" />
+    <circle
+        android:cx="115"
+        android:cy="65"
+        android:r="3"
+        android:fillColor="#000000" />
+
+    <!-- Antena izquierda -->
+    <path
+        android:fillColor="#A4C639"
+        android:pathData="M 70 35 L 60 10 Q 65 20 70 35" />
+
+    <!-- Antena derecha -->
+    <path
+        android:fillColor="#A4C639"
+        android:pathData="M 130 35 L 140 10 Q 135 20 130 35" />
+
+    <!-- Boca (sonrisa) -->
+    <path
+        android:fillColor="none"
+        android:pathData="M 85 90 Q 100 100 115 90"
+        android:strokeColor="#000000"
+        android:strokeWidth="2" />
+
+    <!-- Cuerpo (rectángulo redondeado) -->
+    <rect
+        android:x="70"
+        android:y="120"
+        android:width="60"
+        android:height="50"
+        android:rx="10"
+        android:ry="10"
+        android:fillColor="#A4C639" />
+
+    <!-- Brazos -->
+    <rect
+        android:x="40"
+        android:y="130"
+        android:width="30"
+        android:height="15"
+        android:rx="7"
+        android:ry="7"
+        android:fillColor="#A4C639" />
+    <rect
+        android:x="130"
+        android:y="130"
+        android:width="30"
+        android:height="15"
+        android:rx="7"
+        android:ry="7"
+        android:fillColor="#A4C639" />
+
+    <!-- Piernas -->
+    <rect
+        android:x="80"
+        android:y="170"
+        android:width="10"
+        android:height="20"
+        android:fillColor="#A4C639" />
+    <rect
+        android:x="110"
+        android:y="170"
+        android:width="10"
+        android:height="20"
+        android:fillColor="#A4C639" />
+
+</vector>
